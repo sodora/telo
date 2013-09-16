@@ -46,27 +46,27 @@ $("#nav ul li").mouseleave(function(){
 </script>
     </div>
     <div id="left_side">
-      <h3 align="center">News</h3>
+      <div class='title_side'>News</div>
       <div class='box_side'>
         <p>1. 2012/12. VirMir1.0 is now released ! </p>
       </div>
 
-      <h3 align="center">Links</h3>
+      <div class='title_side'>Links</div>
       <div class='box_side'>
         <p><a href="http://www.mirbase.org">miRbase</a></p>
       </div>
     </div>
 
     <div id="content">
-        <h3>What is VirMir? </h3>
+        <div class='title_center'>What is VirMir? </div>
         <div class='box_center'>
             <p>Introduction of VirMir</p>
         </div>
-        <h3>What can I get from VirMir? </h3>
+        <div class='title_center'>What can I get from VirMir? </div>
         <div class='box_center'>
             <p>introduction about this platform </p>
         </div>
-        <h3>What can I get from VirMir? </h3>
+        <div class='title_center'>What can I get from VirMir? </div>
         <div class='box_center'>
             <p>introduction about this platform </p>
         </div>
