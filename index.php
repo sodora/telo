@@ -4,14 +4,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="description" content="Short description of your site here." />
 <meta name="keywords" content="keywords, go, here, seperated, by, commas" />
-<title>Virus miRNA platform</title>
+<title>Title</title>
 <link href="css/style.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
 <div id="page_wrapper">
     <div id="header_wrapper">
         <div id="header">
-        <h1 align="center">A Platform for Virus microRNA Prediction </font></h1>
+        <h1 align="center">A Big Title</font></h1>
         </div>
         <div id="navcontainer">
         <ul id="navlist">
