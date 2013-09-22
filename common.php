@@ -41,20 +41,20 @@ function html_menu() {
                 </li>
                 <li><a href="#">Protein-Protein</a>
                     <ul style="display: none;">
-                        <li><a href="ppi_tb.php">PICH</a></li>
+                        <li><a href="ppi_tb.php">Browser</a></li>
                         <li><a href="ppi_st.php">Statistics</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Protein-DNA</a>
                     <ul style="display: none;">
                         <li><a href="pdi_br.php">ChIP</a></li>
-                        <li><a href="pdi_tb.php">PICH</a></li>
+                        <li><a href="pdi_tb.php">PICh</a></li>
                         <li><a href="pdi_st.php">Statistics</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Protein-RNA</a>
                     <ul style="display: none;">
-                        <li><a href="pri_tb.php">PICH</a></li>
+                        <li><a href="pri_tb.php">Browser</a></li>
                         <li><a href="pri_st.php">Statistics</a></li>
                     </ul>
                 </li>
