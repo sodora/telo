@@ -18,7 +18,7 @@
 #left_side .box_side {background-color:#FFFFF6; margin-left:10px; margin-right:10px; margin-bottom:15px; padding:5px; border:1px solid #DFE8F7; font-family: arial, sans-serif; font-size: 12px; text-align:center; line-height: 14px; color: #333333;}
 
 #content {margin-bottom: 15px; margin-left:180px;}
-#content p {margin-top:15px; margin-bottom:15px; font-family:arial,sans-serif; font-size:14px; line-height:16px; color:#333333;}
+#content p {margin-top:15px; margin-bottom:15px; font-family:arial,sans-serif; font-size:16px; line-height:16px; color:#333333;}
 #content .title_center {margin-top:15px; margin-bottom:15px; font-family:arial,sans-serif; font-size:20px; font-weight:bold; line-height:20px; color:#2153AA;}
 #content .box_center {background-color: #FFFFF6; padding:10px; border:1px solid #DFE8F7; font-family: times, serif; font-size: 14px; line-height: 28px; color: #333333;}
 
@@ -27,3 +27,4 @@
 #footer a:visited {color: #FFFFFF; text-decoration: none;}
 #footer a:active {color: #FFFFFF; text-decoration: none;}
 #footer a:hover {color: #FFFFFF; text-decoration: underline;}
+
