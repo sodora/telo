@@ -47,6 +47,7 @@ function html_menu() {
                 </li>
                 <li><a href="#">Protein-DNA</a>
                     <ul style="display: none;">
+                        <li><a href="pdi_br.php">ChIP</a></li>
                         <li><a href="pdi_tb.php">PICH</a></li>
                         <li><a href="pdi_st.php">Statistics</a></li>
                     </ul>
