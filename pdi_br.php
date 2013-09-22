@@ -70,6 +70,7 @@ if($ppi_show) {
     <th>Protein</th>
     <th>Position</th>
     <th>Gene</th>
+    <th>Distance</th>
     <th>Annotation</th>
     <th>P-value</th>
 </tr>
@@ -84,6 +85,7 @@ if($ppi_show) {
     <th>Protein</th>
     <th>Position</th>
     <th>Gene</th>
+    <th>Distance</th>
     <th>Annotation</th>
     <th>P-value</th>
 </tr>
