@@ -97,7 +97,7 @@ function html_footer() {
     echo <<<END
     </div>
     <div id="footer">
-        <a href="index.php">Homepage</a> | <a href="contact.php">Contact us</a> 
+        <a href="index.php">Homepage</a> | <a href="about.php">About us</a> 
     </div>
 </div>
 </body>
