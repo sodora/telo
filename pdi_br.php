@@ -2,8 +2,10 @@
 require 'common.php';
 
 $asmb = array('hg19'=>'Human', 'mm10'=>'Mouse');
-if(isset($_REQUEST['db'])) {
-    $pdi_table = $_REQUEST['db'] . '_pdi_chip';
+$prot = array('trf1'=>'TRF1', 'trf2'=>'TRF2', 'tpp1'=>'TPP1', 'tin2'=>'TIN2', 'rap1'=>'RAP1', 'pot1'=>'POT1');
+
+if(isset($_REQUEST['db']) and isset($_REQUEST['protein'])) {
+    $pdi_table = $_REQUEST['db'] . '_chip_' . $_REQUEST['protein'];
     $pdi_show = True;
 } else {
     $pdi_show = False;
@@ -21,6 +23,7 @@ echo <<<END
     <tr>
         <td>Group</td>
         <td>Species</td>
+        <td>Protein</td>
         <td>&nbsp;</td>
     </tr>
     <tr>
@@ -39,8 +42,24 @@ foreach($asmb as $asm_k=>$asm_v) {
     }
 }
 
+
 echo <<<END
 </select>
+        </td>
+        <td>
+            <select style="width:180px" name="protein">
+END;
+
+foreach($prot as $pro_k=>$pro_v) {
+    if(isset($_REQUEST['protein']) and $_REQUEST['protein'] == $pro_k) {
+        echo "<option value=\"$pro_k\" selected=\"selected\">$pro_v</option>";
+    } else {
+        echo "<option value=\"$pro_k\">$pro_v</option>";
+    }
+}
+
+echo <<<END
+            </select>
         </td>
         <td>
             <input type="submit" value="Submit" />

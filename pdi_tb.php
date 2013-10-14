@@ -13,7 +13,7 @@ echo <<<END
 <thead>
 <tr>
     <th>Protein Name</th>
-    <th>Species</th>
+    <th>Cell Line</th>
     <th>Method</th>
     <th>Pubmed</th>
     <th>ACC</th>
@@ -27,7 +27,7 @@ echo <<<END
 <tfoot>
 <tr>
     <th>Protein Name</th>
-    <th>Species</th>
+    <th>Cell Line</th>
     <th>Method</th>
     <th>Pubmed</th>
     <th>ACC</th>

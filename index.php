@@ -1,15 +1,15 @@
 <?php
 require 'common.php';
 
-html_header('The TeloPIdb: Home');
+html_header('The TeloPIM: Home');
 html_menu();
 html_left();
 echo <<<END
-        <div class="title_center">What is TeloPIdb?</div>
+        <div class="title_center">What is TeloPIM?</div>
         <div class="box_center">
-            <p>Mammalian telomeric proteins Interaction Database is a collection of telomeric proteins
-            Protein-Protein interaction (PPI) data and telomeric proteins-Dna binding interaction data.
-            Collected from the scientific literature and GEO database.
+            <p>Telomeric Proteins Interaction in Mammalian Database is a collection of telomeric proteins
+            Protein-Protein Interaction (PPI),Proteins-DNA interaction and Protein-RNA interaction data .
+            from scientific literature and GEO database.
             </p>
         </div>
         <div class="title_center">Background</div>

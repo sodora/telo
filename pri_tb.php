@@ -2,7 +2,7 @@
 require 'common.php';
 
 $asmb = array('hg19'=>'Human', 'mm10'=>'Mouse');
-$prot = array('trf1'=>'TRF1', 'trf2'=>'TRF2', 'tpp1'=>'TPP1', 'tin2'=>'TIN2', 'rap1'=>'RAP1', 'pot1'=>'POT1');
+$prot = array('terra'=>'TERRA', 'terc'=>'TERC');
 
 if(isset($_REQUEST['db']) and isset($_REQUEST['rna'])) {
     $pri_table = $_REQUEST['db'] . '_pri_' . $_REQUEST['rna'];
