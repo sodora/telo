@@ -11,8 +11,8 @@ function html_header($title) {
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="Description" />
-<meta name="keywords" content="keywords1, keywords2" />
+<meta name="description" content="TeloPIN" />
+<meta name="keywords" content="TeloPIN,Protein-Protein Interaction,Protein-DNA Interaction,Protein-RNA Interaction" />
 <title>
 END;
     echo $title;
@@ -27,7 +27,8 @@ END;
 <div id="page_wrapper">
     <div id="header_wrapper">
         <div id="header">
-            <p>The TeloPIdb: Mammalian telomeric proteins Interaction Database</p>
+            <img id="logo" src="images/logo.jpg" height="60" width="120" alt="logo.jpg" />
+            <p>TeloPIN:Telomeric Proteins Interaction Network</p>
         </div>
 
 END;
@@ -81,11 +82,11 @@ function html_left() {
     <div id="left_side">
         <div class="title_side">News</div>
         <div class="box_side">
-            <p>1. 2012/12. VirMir1.0 is now released ! </p>
+            <p>  </p>
         </div>
         <div class="title_side">Links</div>
         <div class="box_side">
-            <p><a href="http://www.mirbase.org">miRbase</a></p>
+            <p> </p>
         </div>
     </div>
     <div id="content">

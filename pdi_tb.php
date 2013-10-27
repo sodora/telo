@@ -1,7 +1,7 @@
 <?php
 require 'common.php';
 
-html_header('The TeloPIdb: Protein-DNA Interaction');
+html_header('The TeloPIN: Protein-DNA Interaction');
 html_menu();
 html_left();
 

@@ -11,7 +11,7 @@ if(isset($_REQUEST['db']) and isset($_REQUEST['protein'])) {
     $pdi_show = False;
 }
 
-html_header('The TeloPIdb: Protein-DNA Interaction');
+html_header('The TeloPIN: Protein-DNA Interaction');
 html_menu();
 html_left();
 

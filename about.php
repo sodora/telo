@@ -1,7 +1,7 @@
 <?php
 require 'common.php';
 
-html_header('The TeloPIdb: About');
+html_header('The TeloPIN: About');
 html_menu();
 html_left();
 echo <<<END

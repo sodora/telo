@@ -11,7 +11,7 @@ if(isset($_REQUEST['db']) and isset($_REQUEST['rna'])) {
     $pri_show = False;
 }
 
-html_header('The TeloPIdb: Protein-RNA Interaction');
+html_header('The TeloPIN: Protein-RNA Interaction');
 html_menu();
 html_left();
 

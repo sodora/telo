@@ -1,35 +1,30 @@
 <?php
 require 'common.php';
 
-html_header('The TeloPIM: Home');
+html_header('The TeloPIN: Home');
 html_menu();
 html_left();
 echo <<<END
-        <div class="title_center">What is TeloPIM?</div>
+        <div class="title_center">Welcome to TeloPIN Database</div>
         <div class="box_center">
-            <p>Telomeric Proteins Interaction in Mammalian Database is a collection of telomeric proteins
-            Protein-Protein Interaction (PPI),Proteins-DNA interaction and Protein-RNA interaction data .
-            from scientific literature and GEO database.
+            <p>Telomeric Proteins Interaction Network(TeloPIN) Database is a collection of telomeric proteins
+            Protein-Protein Interaction (PPI), Protein-DNA interaction and Protein-RNA interaction data in mammalian from scientific literature and GEO database.
+            The goal of database is facilitate the understanding of the molecular interaction network of telomeric proteins by providing provide comprehensive 
+            information on protein-protein, protein-DNA and protein-RNA interaction of telomeres. 
             </p>
         </div>
-        <div class="title_center">Background</div>
+        <div class="title_center">Introduction</div>
         <div class="box_center">
-            <p>Human telomeres are bound and protected by protein complexes assembled around the six
-            core telomeric proteins RAP1, TRF1, TRF2, TIN2, TPP1, and POT1. The function of these
-            proteins on telomeres has been studied exten-sively. Recently, increasing evidence has
-            suggested possible roles for these proteins outside of telomeres. However, the non-canonical
-            (extra-telomeric) function of human telomeric proteins remains poorly understood.
+            <p>
+            <img src="images/Homepage.png" height="600" width="800" alt="Homepage.png" />
             </p>
-            <p>Protein-protein interactions (PPI) represent a pivotal aspect of protein function. Almost
-            every cellular process relies on transient or permanent physical binding of two or more
-            proteins in order to accomplish the respective task. Comprehensive databases of PPI in
-            Saccharomyces cerevisiae have proved to be invaluable resources for both bioinformatics and
-            experimental research and are used heavily in the scientific community.
-            </p>
-            <p>Although yeast is a well established model organism, not all interactions in higher
-            eukaryotes have equivalent counterparts in unicellular systems. Currently, publicly available
-            PPI databases contain comparatively few entries from mammals so we embarked on building a
-            high-quality, manually curated database of protein-protein interactions in mammals.
+            <p>
+            Mammalian telomeres are capped by protein complexes assembled around the six
+            core telomeric proteins TRF1, TRF2, RAP1, TIN2, TPP1, and POT1.This six proteins form a complex termed telosome/shelterin.
+            The function and interaction network of telosome/shelterin on telomeres has been studied extensively. 
+            Recently, accumulating evidence has suggested extratelomeric roles for these proteins in various biological process and diseases by binding to other chromosome loci.
+            In additon to telomeric DNA and proteins component, telomeres are constitutively transcribed into a long non-coding RNA called telomeric repeat-containing RNA(TERRA).
+            TERRA interacts with telomeric proteins to become a part of telomeric regulatory network.Deciphering and integrating the interaction of telomeric proteins data will help to board our deep understanding to telomere biology and diseases.
             </p>
         </div>
 

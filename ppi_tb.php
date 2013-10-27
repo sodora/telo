@@ -11,7 +11,7 @@ if(isset($_REQUEST['db']) and isset($_REQUEST['protein'])) {
     $ppi_show = False;
 }
 
-html_header('The TeloPIdb: Protein-Protein Interaction');
+html_header('The TeloPIN: Protein-Protein Interaction');
 html_menu();
 html_left();
 
